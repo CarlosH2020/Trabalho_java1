@@ -1,0 +1,64 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package exercicio2;
+
+/**
+ *
+ * @author Root
+ */
+public class Exercicio2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+      int a = 3, b = 2; 
+      float c = 1;
+      float x = 0;
+        
+       
+       System.out.println("A|B|C|X");
+       System.out.println("-------");
+       
+       x = --b - b-1;
+       System.out.printf("%d|%d|%f|%f \n", a, b, c, x);
+       
+       c = a/b;
+       System.out.printf("%d|%d|%f|%f \n", a, b, c, x);
+       
+       c = a/b;
+       System.out.printf("%d|%d|%f|%f \n", a, b, c, x);
+       a += x + c * b++;
+       
+       System.out.printf("%d|%d|%f|%f \n", a, b, c, x);
+       c = ++x + x *3 + x;
+       
+       System.out.printf("%d|%d|%f|%f \n", a, b, c, x);
+       c = --x * 4 /b;
+       
+       System.out.printf("%d|%d|%f|%f \n", a, b, c, x);
+       a /= --b;
+       
+       System.out.printf("%d|%d|%f|%f \n", a, b, c, x);
+       x *= c++;
+       
+       System.out.printf("%d|%d|%f|%f \n", a, b, c, x);
+       a = (int) ((--b *c) + (c++ - b));
+       
+       System.out.printf("%d|%d|%f|%f \n", a, b, c, x);
+       ++x;
+       System.out.printf("%d|%d|%f|%f \n", a, b, c, x);
+       
+       
+     
+        
+       
+        
+    }
+    
+}
